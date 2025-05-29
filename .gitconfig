@@ -1,0 +1,8 @@
+[user]
+	email = 132891000+Sudhan9505@users.noreply.github.com
+	name = SUTHARSANA CHANDRASEKARAN
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
